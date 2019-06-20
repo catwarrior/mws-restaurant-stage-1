@@ -288,7 +288,7 @@ nav h1 a {
 }
 #reviews-list li {
   background-color: #fff;
-    border: 2px solid #f3f3f3;
+  border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -334,7 +334,49 @@ nav h1 a {
     padding: 80px 40px 30px;
     width: auto;
   }
+  #restaurant-img {
+    border-radius: 20px 0 20px;
+  }
   .inside #footer {
     width: auto;
+  }
+
+  #reviews-list li {
+    border-radius: 20px 0 20px;
+    padding: 0 0px 20px;
+    width: auto;
+  }
+  #reviews-list li p:nth-child(1) {
+    display: inline-block;
+    width: 20%;
+    background: black;
+    color: white;
+    padding: 5px 0 5px 15px;
+    box-sizing: border-box;
+  }
+  #reviews-list li p:nth-child(2) {
+    display: inline-block;
+    width: 80%;
+    background: black;
+    color: #ccc;
+    padding: 5px 15px 5px 0px;
+    text-align: right;
+    box-sizing: border-box;
+  }
+  #reviews-list li p:nth-child(3) {
+    background: orange;
+    display: inline-block;
+    color: white;
+    padding: 3px 15px;
+    margin: 10px 15px;
+    border-radius: 3px;
+  }
+  #reviews-list li p:nth-child(4) {
+    padding: 0 15px 0 15px;
+    color: #999;
+  }
+
+  #reviews-list li:nth-last-child(1) {
+    margin-bottom: 80px;
   }
 }
