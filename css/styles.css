@@ -47,6 +47,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
+  box-sizing: border-box;
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -221,7 +222,7 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 87%;
+  height: calc(100% - 80px);;
   position: fixed;
   right: 0;
   top: 80px;
@@ -248,7 +249,7 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
-	width: 90%;
+	width: 100%;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -264,13 +265,14 @@ nav h1 a {
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-	width: 90%;
+	width: 100%;
 }
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
   width: 50%;
+  box-sizing: border-box;
 }
 #reviews-container {
   padding: 30px 40px 80px;
@@ -295,7 +297,7 @@ nav h1 a {
   overflow: hidden;
   padding: 0 20px 20px;
   position: relative;
-  width: 85%;
+  width: auto;
 }
 #reviews-list li p {
   margin: 0 0 10px;
@@ -348,7 +350,7 @@ nav h1 a {
   }
   #reviews-list li p:nth-child(1) {
     display: inline-block;
-    width: 20%;
+    width: 30%;
     background: black;
     color: white;
     padding: 5px 0 5px 15px;
@@ -356,7 +358,7 @@ nav h1 a {
   }
   #reviews-list li p:nth-child(2) {
     display: inline-block;
-    width: 80%;
+    width: 70%;
     background: black;
     color: #ccc;
     padding: 5px 15px 5px 0px;
