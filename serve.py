@@ -20,6 +20,7 @@ mimedic = [
                         ('.gif', 'image/gif'),
                         ('.txt', 'text/plain'),
                         ('.avi', 'video/x-msvideo'),
+                        ('.ico', 'image/x-icon'),
                     ]
 
 class testHTTPServer_RequestHandler(BaseHTTPRequestHandler):
