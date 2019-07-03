@@ -71,7 +71,7 @@ nav h1 a {
     list-style: none;
     background-color: #eee;
     font-size: 17px;
-    margin: 0;
+    margin: 50px 0px;
     width: calc(50% - 80px);
 }
 
@@ -311,12 +311,13 @@ nav h1 a {
     z-index: 1001;
   }
   .inside #breadcrumb {
-    padding: 10px 40px 16px;
+    padding: 10px 10px 16px;
     list-style: none;
     background-color: #eee;
     font-size: 17px;
-    margin: 0;
+    margin: 18px 0px;
     width: auto;
+    text-align: left;
   }
   .inside #map-container {
     position: relative;
